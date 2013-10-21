@@ -1,0 +1,70 @@
+
+
+/*****************************/		
+/*        GENERAL             *
+/*****************************/	
+
+body {
+	background-color: #CBD2DA;
+}
+
+#container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+header {
+	margin: 0 0 33px 0;
+	padding: 30px 0 65px 0;
+}
+
+article {
+	background-color: white;
+}
+
+p {
+	padding: 27px;
+	font-family: helvetica, sans-serif;
+	line-height: 24px;
+}
+
+/*****************************/		
+/*  CSS SPRITE NAVIGATION     *
+/*****************************/	
+	
+#menu ul li a {
+	margin: 30px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+	height: 65px;
+	width: 125px;
+	background-image: url('../images/menu-sprite.jpg');
+	float: left;
+	background-position-y: 0px;
+}
+
+#menu ul li a:hover {
+	background-position-y: -70px;
+
+}
+
+#menu ul li.active a {
+	background-position-y: 63px;
+}
+
+li.home a {
+	background-position-y: -90px;
+}
+
+li.about a {
+	background-position-x: -125px;
+}
+
+#menu ul li.contact a {
+	width: 162px;
+ 	background-position-x: 165px;
+}
+
+	

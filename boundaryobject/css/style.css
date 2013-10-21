@@ -1,0 +1,86 @@
+body {
+	background-color: white;
+	background-image: url('../images/noise.png');
+
+}
+
+#container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+h1 {
+	margin: 0;
+	padding-top: 0;
+	height: auto;
+	background-color: none;
+	text-align: center;
+	line-height: 0.3em;
+	font-family: helvetica;
+	font-weight: lighter;
+	font-size: 27px;
+	color: black;
+}
+
+h2 {
+	margin: 0;
+	padding-bottom: 27px;
+	text-align: center;
+	font-family: helvetica;
+	font-weight: lighter;
+	font-size: 18px;
+}
+
+h3 {
+	padding-top: 18px; 
+	padding-left: 27px;
+	margin: 0;
+	font-family: helvetica;
+	font-weight: lighter;
+	font-size: 18px;
+}
+
+main {
+	background-color: ;
+}
+
+article {
+	font-family: georgia;
+	font-style: italic;
+	font-size: 18px;
+	padding: 0 81px 27px;
+}
+
+th {
+	text-align: left;
+	font-weight: lighter;
+}
+
+hr {
+	height: 1px;
+	border: 0;
+	background-color: black;
+}
+
+footer {
+	background-color: 0;
+	text-align: center;
+	font-family: georgia;
+	font-style: italic;
+	color: black;
+	padding: 18px;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+a:visited {
+	color: black;
+}
+a:hover {
+	color: #d3d3d3;
+}
+a:active {
+	color: black;
+}

@@ -1,0 +1,112 @@
+/*CSS file for Art is Hard*/
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: black; 
+	line-height: 1.25;
+	background: url('../images/hipster-line.gif')  no-repeat;
+}
+
+#container {
+	margin: 0 auto;
+	width: 910px;
+	padding: 20px;
+	text-align: center;
+}
+
+header {
+	padding: 140px 0 60px 0;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	font-family: Courier;
+	font-size: 100px;
+	line-height: 0.7;
+	letter-spacing: -2px;
+	font-weight: bold;
+	color: #333;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 32px;
+	margin: 4px 0;
+	font-weight: normal;
+	padding: 0;
+	color: #999;
+	font-family: Courier;
+	line-height: 2.8em;
+}
+
+/* not sure if there should be a third heading or a class for h2 in the header */
+
+/* here */
+
+h3 {
+
+	font-size: 16px;
+	color: #999;
+	font-family: Courier;
+}
+
+.sub {
+
+	font-size: 32px;
+	color: #999;
+	font-family: Courier;
+}
+
+/* and here? */
+
+p {
+	margin: 20px 0;
+	color: #999;
+}
+
+footer {
+	padding: 20px;
+	text-align: center;
+}
+
+a:link {
+	color: #999;
+	text-decoration: none;
+}
+a:visited {
+	color: #999;
+}
+a:hover {
+	color: #ccc;
+}
+a:active {
+	color: #999;
+}
+
+img.frame {
+	width: 680px;
+	height: 400px;
+	padding: 100px;
+	background: #fcfcfc;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 30px #ccc;
+
+}
+
+img.frame:hover {
+	box-shadow: 1px 1px 40px #bbb;
+}
+
+.line {
+	margin: 25px 0;
+	border-bottom: 1px #CCC solid;
+}
+
+
+
+
+
+
+

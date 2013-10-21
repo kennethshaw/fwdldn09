@@ -1,0 +1,54 @@
+.clearfix:after { /* expands collapsed parent to clear its height past its floating children */
+ 
+  content: "."; /* adds html text of period symbol (:after) all opther children inside the parent with is .clear:after class applied to it. */
+	
+	display: block; /* set newly created content: to display block */
+	
+	clear: both; /* sets the '.' content to clear past all of the floating children giving a height reference. */
+	
+	visibility: hidden; /* make the '.' content invisible. */
+	
+	line-height: 0; /* make sure it has no text line-height */
+	height: 0; /* make sue it has no physical height */
+}
+
+.clear {
+	clear: both;
+}
+
+nav {
+	width: 600px;
+	margin: 0 auto;
+}
+
+nav ul {
+	padding: 0;
+}
+
+li {
+	float: left;
+	width: 190px;
+	margin: 0 5px;
+	height: 40px;
+}
+
+nav ul li a {
+	background-color: #FF6666;
+	width: 190px;
+	display: block;
+	height: 40px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+	vertical-align: middle;
+	padding-top: 13px;
+}
+
+nav ul li a:hover, a.active {
+	background-color: #FF2266;
+}
+
+h1 {
+	text-align: center;
+}

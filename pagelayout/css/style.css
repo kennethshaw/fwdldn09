@@ -1,0 +1,40 @@
+body {
+	background-image: url('../images/pattern1.png');
+}
+
+#container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+h1 {
+	background-color: #FF0000;
+	font-family: helvetica;
+	color: white;
+	padding: 18px;
+	margin: 0;
+}
+
+h2 {
+	font-family: helvetica;
+	padding: 18px;
+	margin: 0;
+}
+
+main {
+	background-color: white;
+}
+
+article {
+	font-family: georgia;
+	font-style: italic;
+	padding: 0 81px 27px;
+}
+
+footer {
+	background-color: #FF0000;
+	font-family: georgia;
+	font-style: italic;
+	color: white;
+	padding: 18px;
+}
