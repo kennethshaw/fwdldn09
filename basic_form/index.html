@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>A Very Basic Form</title>
+</head>
+
+<body>
+	<form id="contact-form" method="" action="">
+
+	<h3>Contact Form</h3>
+	
+	<div class="field">
+	<lable for="name">Name:</lable>
+	<input type="text" name="name" id="name" placeholder="your name"> 
+	
+	</div>
+
+	<div class="field">
+		<lable for="email">Email:</lable>
+		<input type="email" name="email" id="email" />
+	</div>
+
+	<div class="field">
+		<h4>My ride:</h4>
+		<input type="checkbox" name="vehicle" id="bike" value="bike" />
+		<label for="car">Car</label>
+
+		<input type="checkbox" name="vehicle" id="dinosaur" value="dinosaur" />
+		<label for="dinosaur">Dinosaur</label>
+	</div>
+
+	<div class="field">
+		<label for="message">Message:</label>
+		<textarea name="message" id="message">Placeholder Text here</textarea>
+	</div>
+
+	<div class="field">
+		<lable>Gender:</lable>
+		<input type="radio" name="gender" value="male">Male
+		<input type="radio" name="gender" value="male">Female
+	</div>
+
+	<div class="field">
+		<h4>City</h4>
+		<select name="degree">
+			<option value="-1">Choose One</option>
+			<option value="london">London</option>
+			<option value="manchester">Manchester</option>
+			<option value="birmingham">Birmingham</option>
+		</select>
+	</div>
+
+	<input type="submit" name="" class="button" value="send" />
+
+	</form>
+
+</body>
+</html>
