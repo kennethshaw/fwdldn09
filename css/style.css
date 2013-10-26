@@ -64,9 +64,9 @@ ul.menu li a {
     background-color: #F66;
     width: 190px;
     display: block;
-    height: 30px;
+    height: 33px;
     vertical-align: middle;
-    padding-top: 9px;
+    padding-top: 6px;
 }
 
 ul.menu li a:link,ul.menu li a:visited {
