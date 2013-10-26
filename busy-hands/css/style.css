@@ -51,7 +51,6 @@ h3 {
 /*====header====*/
 
 header {
-	padding: 20px 0 10px 0;
 }
 
 /*====nav====*/
@@ -59,24 +58,21 @@ header {
 nav {
 	width: 100%;
 	display: block;
-	background-color: black;
 	font-family: helvetica, sans-serif;
 }
 
 
 nav ul li {
-	padding: 24px 0;
+	/*padding: 24px 0;*/
 	float: left;
-	display: inline;
 }
 
 	
 nav li a {
 	display: block;
-	width: 100px;
+	padding: 30px;
 	color: white;
 	text-decoration: none;
-	
 }
 
 nav a:link, nav a:active, nav a:visited {
@@ -85,8 +81,7 @@ nav a:link, nav a:active, nav a:visited {
 }
 
 nav a:hover {
-	background-image: url('../images/bg_nav_rollover.png');
-	background-position-y: ; 
+	background: url('../images/bg_nav_rollover.png') repeat-x;
 }
 
 /*====logo====*/
