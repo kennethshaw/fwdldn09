@@ -56,10 +56,19 @@ h2 {
 
 h3 {
 	font-family: georgia, serif;
-	margin: 12px 0;
+	margin: 9px 0 6px;
 	font-size: 15px;
 	font-weight: normal;
 	letter-spacing: 0.3px;
+}
+
+h4 {
+	font-family: georgia, serif;
+	margin: 3px 0 9px;
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing: 0.3px;
+	color: #7e7e7e;
 }
 
 /* ==================================================== */
@@ -92,6 +101,7 @@ section {
 /* ==================================================== */
 
 .latestworkcell {
+	padding-bottom: 9px;
 	border-bottom: 1px #CCC solid;
 	text-align: center;
 }
