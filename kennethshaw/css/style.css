@@ -1,0 +1,136 @@
+.clearfix:after {
+/* expands collapsed parent to clear its height past its floating children */
+    content: ".";
+/* adds html text of period symbol (:after) all opther children inside the parent with is .clear:after class applied to it. */
+    display: block;
+/* set newly created content: to display block */
+    clear: both;
+/* sets the '.' content to clear past all of the floating children giving a height reference. */
+    visibility: hidden;
+/* make the '.' content invisible. */
+    line-height: 0;
+/* make sure it has no text line-height */
+    height: 0;
+/* make sue it has no physical height */
+}
+
+.clear {
+    clear: both;
+}
+
+/* ==================================================== */
+
+body {
+	background: #CCC;
+	background: url('../img/noise.png');
+}
+
+.wrapper {
+	width: 1020px;
+	margin: 0 auto;
+	background: white;
+}
+
+.container {
+	width: 970px;
+	margin: 0 auto;
+	background: white;
+	border-top: 12px #CCC solid;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333333;
+}
+
+/* ==================================================== */
+
+h1 {
+	font-family: georgia, serif;
+	font-size: 36px;
+}
+
+h2 {
+	font-family: georgia, serif;
+	font-size: 27px;
+	font-weight: normal;
+	letter-spacing: 0.3px;
+}
+
+h3 {
+	font-family: georgia, serif;
+	margin: 12px 0;
+	font-size: 15px;
+	font-weight: normal;
+	letter-spacing: 0.3px;
+}
+
+/* ==================================================== */
+
+header {
+	padding: 36px 0 18px;
+	text-align: left;
+}
+
+.headercell {
+	font-family: georgia, serif;
+	font-size: 18px;
+}
+
+.headercellborder {
+	border-right: 1px #CCC solid;
+}
+
+u {
+    text-decoration: none;
+    border-bottom: 1px solid #333333;
+ }​
+
+/* ==================================================== */
+
+section {
+	padding: 9px 0;
+}
+
+/* ==================================================== */
+
+.latestworkcell {
+	border-bottom: 1px #CCC solid;
+	text-align: center;
+}
+
+.latestworkcellimage {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/* ==================================================== */
+
+.workcell {
+	padding: 27px 0 9px 0;
+	border-bottom: 1px #CCC solid;
+}
+
+.workcellimage {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.date {
+	float: right;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+meta {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* ==================================================== */
+
+/* Extra small devices (phones, up to 480px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg) { ... }
