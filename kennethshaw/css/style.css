@@ -201,6 +201,15 @@ a.albums:hover {
 
 /* ==================================================== */
 
+.tagscell {
+	margin: 36px 0 0 0;
+	padding-bottom: 18px;
+	border-bottom: 1px #CCC solid;
+	text-align: center;
+}
+
+/* ==================================================== */
+
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
 
