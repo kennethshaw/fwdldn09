@@ -29,6 +29,9 @@ body {
 	width: 1020px;
 	margin: 0 auto;
 	background: white;
+	box-shadow: 0 0 12px #909090;
+	border-right: 1px #E8E8E8 solid;
+	border-left: 1px #E8E8E8 solid;
 }
 
 .container {
@@ -49,7 +52,7 @@ h1 {
 
 h2 {
 	font-family: georgia, serif;
-	font-size: 27px;
+	font-size: 24px;
 	font-weight: normal;
 	letter-spacing: 0.3px;
 }
@@ -80,22 +83,75 @@ header {
 
 .headercell {
 	font-family: georgia, serif;
-	font-size: 18px;
+	font-size: 15px;
 }
 
-.headercellborder {
+.headercellborder-r {
 	border-right: 1px #CCC solid;
+}
+
+.headercellborder-l {
+	border-left: 1px #CCC solid;
 }
 
 u {
     text-decoration: none;
-    border-bottom: 1px solid #333333;
+    border-bottom: 1px solid #FF353D;
  }​
 
 /* ==================================================== */
 
+.contact {
+
+}
+
+a.contact:link, a.contact:visited {
+    color: #333333;
+    text-decoration: none;
+}
+
+a.contact:hover {
+	color: #5941E8;
+}
+
+/* ==================================================== */
+
+nav {
+
+}
+
+.subnav {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+ul.subnav li {
+    float: left;
+    margin: 0 9px 0 0;
+}
+
+ul.subnav li a {
+}
+
+ul.subnav li a:link,ul.subnav li a:visited {
+    color: #333333;
+    text-decoration: none;
+}
+
+ul.subnav li a:hover,ul.subnav li a.active {
+    border-bottom: 1px solid #FF353D;
+    padding: 0 0 3px 0;
+}
+
+/* ==================================================== */
+
 section {
-	padding: 9px 0;
+	margin: 9px 0;
+}
+
+p {
+	margin: 0;
 }
 
 /* ==================================================== */
@@ -131,6 +187,18 @@ section {
 meta {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+/* ==================================================== */
+
+a.albums:link, a.albums:visited {
+    color: #333333;
+    text-decoration: none;
+}
+
+a.albums:hover {
+	color: #FF353D;
+}
+
 /* ==================================================== */
 
 /* Extra small devices (phones, up to 480px) */
