@@ -30,6 +30,7 @@ body {
 	margin: 0 auto;
 	background: white;
 	border-top: 12px #CCC solid;
+	box-shadow: 0 0 9px #888888;
 }
 
 .container {
@@ -226,6 +227,10 @@ a.albums:hover {
 
 /* ==================================================== */
 
+.aboutcell {
+	
+}
+
 .aboutlatest {
 	margin-bottom: 24px;
 	padding-bottom: 9px;
@@ -249,6 +254,7 @@ a.albums:hover {
 	padding-bottom: 9px;
 	border-top: 1px #CCC solid;
 	text-align: left;
+	border-bottom: 1px #CCC solid;
 }
 
 .tagscell {
