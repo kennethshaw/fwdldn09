@@ -8,11 +8,11 @@ $(
 
   	if (favColour === "blue, red, yellow, green"){
 
-		$('body').css('background-color',COLOR);
-		        
+		$("body").css("background-color",COLOR);
+
   	} else {
 
-  		$("container").css("h2") 
+  		$("container").css("h2", ) 
 
   	}
 
