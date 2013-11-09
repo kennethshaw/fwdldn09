@@ -6,14 +6,23 @@ $(
 
   	var favColour = prompt("what is your favorite colour");
 
-  	if (favColour === "blue, red, yellow, green"){
+  	console.log(favColour);
 
-		$("body").css("background-color",COLOR);
+  	if (
+
+  		(favColour === "blue") ||
+  		(favColour === "red") ||
+  		(favColour === "yellow") ||
+  		(favColour === "green") 
+
+  	) {
+
+		$("body").css("background-color",favColour);
 
   	} else {
 
-  		$("container").css("h2", ) 
-
+  		$("h2").text("Sorry, we don't have that colour")
+  		
   	}
 
 }
