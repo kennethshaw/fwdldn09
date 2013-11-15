@@ -1,0 +1,339 @@
+.clearfix:after {
+/* expands collapsed parent to clear its height past its floating children */
+    content: ".";
+/* adds html text of period symbol (:after) all opther children inside the parent with is .clear:after class applied to it. */
+    display: block;
+/* set newly created content: to display block */
+    clear: both;
+/* sets the '.' content to clear past all of the floating children giving a height reference. */
+    visibility: hidden;
+/* make the '.' content invisible. */
+    line-height: 0;
+/* make sure it has no text line-height */
+    height: 0;
+/* make sue it has no physical height */
+}
+
+.clear {
+    clear: both;
+}
+
+/* ==================================================== */
+
+body, html {
+	height: 100%;
+	background: #F0F0F0 url('../img/noise.png');
+}
+
+/* nav
+==================================================== */
+
+.navbar {
+
+}
+
+.navbar-header {
+
+}
+
+.navbar-nav {
+
+}
+
+.navbar-right {
+	border-left: 1px #e6e6e6 solid;
+}
+
+.navbar-default .navbar-collapse {
+	width: 960px;
+	margin: 0 auto;
+	padding-left: 0;
+	padding-right: 15px;
+	border-left: 1px #e6e6e6 solid; 
+	border-right: 1px #e6e6e6 solid;
+}
+
+.navbar-static-bottom {
+	margin: 0;
+}
+
+
+/* ==================================================== */
+
+h1 {
+	font-family: georgia, serif;
+	font-size: 36px;
+}
+
+h2 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 36px 0 18px;
+	font-size: 21px;
+	font-weight: normal;
+	letter-spacing: 0.4px;
+}
+
+h3 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 18px 0 9px;
+	font-size: 15px;
+	font-weight: normal;
+	letter-spacing: 0.3px;
+}
+
+h4 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 3px 0 9px;
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing: 0.3px;
+	color: #7e7e7e;
+}
+
+h5 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	margin: 9px 0 6px;
+	font-size: 15px;
+	font-weight: normal;
+	letter-spacing: 0.3px;
+	color: #333333;
+}
+
+/* ==================================================== */
+
+.section-line {
+	border-top: 2px #E0E0E0 solid;
+}
+
+section {
+	width: 960px;
+	margin: 0 auto;
+	padding: 27px 0;
+}
+
+p {
+	margin: 0;
+}
+
+/* about
+==================================================== */
+
+/*#about {
+	background: #E0E0E0 url('../img/noise.png');
+}*/
+
+/* carousel
+==================================================== */
+
+.carousel {
+	height: 100%;
+}
+
+.carousel-inner {
+	height: 100%;
+}
+
+/* carousel-indicators original */
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 108px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  border: 1px solid #333333;
+  border-radius: 10px;
+}
+
+.carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: #333333;
+}
+
+/* carousel-control */
+
+.carousel-control {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 9%;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  opacity: 0.20;
+  filter: alpha(opacity=50);
+}
+
+.carousel-control.left {
+  background-image: none;
+}
+
+.carousel-control.right {
+  right: 18px;
+  left: auto;
+  background-image: none;
+}
+
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+
+/* carousel item */
+
+
+.item {
+	height: 100%;
+	background-size: contain;
+	background-position: 50% 50%;
+	background-repeat:no-repeat;
+}
+
+.carousel-inner>.item>img {
+	display: none;
+}
+
+.item h2 {
+	position: absolute;
+	bottom: 54px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.item h3 {
+	position: absolute;
+	bottom: 36px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+/* glyphicon
+==================================================== */
+
+.glyphicon-chevron-left {
+	color: #333333;
+}
+
+.glyphicon-chevron-right {
+	color: #333333;
+}
+
+
+/* featured
+==================================================== */
+
+/*#featured {
+	
+}
+
+.featured-light {
+	padding: 81px 0 36px;
+	background: #F8F8F8  url('../img/noise.png');
+}
+
+.featuredcell {
+	padding-bottom: 9px;
+	text-align: center;
+}
+
+.featuredcell-image {
+	
+}*/
+
+/* work
+==================================================== */
+
+#year-2013 {
+	
+}
+
+#year-2012 {
+
+}
+
+#year-2011 {
+	
+}
+
+/* 
+==================================================== */
+
+.work-dark {
+	padding: 0 0 54px;
+	background: #E0E0E0 url('../img/noise.png');
+}
+
+.work-light {
+	padding: 0 0 54px;
+	background: #F0F0F0 url('../img/noise.png');
+}
+
+.work-year {
+	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* 
+==================================================== */
+
+.workcell {
+	padding: 27px 0 9px 0;
+	text-align: center;
+	border-bottom: 1px #333333 solid;
+}
+
+.workcellimage {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.date {
+	float: right;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+meta {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/* footer
+==================================================== */
+
+
+
+/* ==================================================== */
+
+/* Extra small devices (phones, up to 480px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg) { ... }
