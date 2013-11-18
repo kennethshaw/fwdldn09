@@ -118,9 +118,8 @@ p {
 /* about
 ==================================================== */
 
-/*#about {
-	background: #E0E0E0 url('../img/noise.png');
-}*/
+/* featured
+==================================================== */
 
 /* carousel
 ==================================================== */
@@ -240,28 +239,6 @@ p {
 	color: #333333;
 }
 
-
-/* featured
-==================================================== */
-
-/*#featured {
-	
-}
-
-.featured-light {
-	padding: 81px 0 36px;
-	background: #F8F8F8  url('../img/noise.png');
-}
-
-.featuredcell {
-	padding-bottom: 9px;
-	text-align: center;
-}
-
-.featuredcell-image {
-	
-}*/
-
 /* work
 ==================================================== */
 
@@ -277,8 +254,7 @@ p {
 	
 }
 
-/* 
-==================================================== */
+/* work sections */
 
 .work-dark {
 	padding: 0 0 54px;
@@ -295,8 +271,7 @@ p {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* 
-==================================================== */
+/* work grid */
 
 .workcell {
 	padding: 27px 0 9px 0;
