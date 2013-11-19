@@ -48,6 +48,11 @@ body, html {
 
 }
 
+.navbar-divide {
+	border-right: 1px #e6e6e6 solid;
+
+}
+
 .navbar-right {
 	border-left: 1px #e6e6e6 solid;
 }
@@ -273,13 +278,13 @@ p {
 
 /* work sections */
 
-.work-dark {
+.work-background-dark {
 	width: 100%;
 	padding: 0 0 54px;
 	background: #E0E0E0 url('../img/noise.png');
 }
 
-.work-light {
+.work-background-light {
 	width: 100%;
 	padding: 0 0 54px;
 	background: #F0F0F0 url('../img/noise.png');
@@ -301,13 +306,13 @@ p {
 
 /* work layout */
 
-.workitem {
+.work-item {
 
 	float:left;
 	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 
-.workcell {
+.work-content {
 	width: 100%;
 	max-width: 300px;
 	margin: 0 auto;
@@ -316,7 +321,7 @@ p {
 	border-bottom: 1px #333333 solid;
 }
 
-.workcellimage {
+.work-contentimage {
 	max-width: 100%;
 	max-height: 100%;
 }
@@ -332,9 +337,17 @@ p {
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 320px) { 
+@media (min-width: 320px) {
 
-	.workitem {
+	.work-year-top {
+		margin-top: 36px;
+	}
+
+	.navbar-text, .navbar-nav>li>a, .navbar-nav .open .dropdown-menu>li>a {
+		padding-left: 9%;
+	}
+
+	.work-item {
 		width:100%;
 	}
 
@@ -348,9 +361,17 @@ p {
 
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
+
+	.navbar-text, .navbar-nav>li>a, .navbar-nav .open .dropdown-menu>li>a {
+		padding-left: 15px;
+	}
 	
-	.workitem {
+	p.navbar-text{
+		padding-left: 0;
+	}
+
+	.work-item {
 		width:50%;
 	}
 
@@ -364,7 +385,7 @@ p {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 	
-	.workitem {
+	.work-item {
 		width:33.333%;
 	}
 
