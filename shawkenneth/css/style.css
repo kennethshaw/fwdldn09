@@ -22,14 +22,22 @@
 
 body, html {
 	height: 100%;
+	width: 100%;
 	background: #F0F0F0 url('../img/noise.png');
+}
+
+
+/* 
+==================================================== */
+
+* {
+	/*border: 1px blue solid;*/
 }
 
 /* nav
 ==================================================== */
 
 .navbar {
-
 }
 
 .navbar-header {
@@ -45,7 +53,8 @@ body, html {
 }
 
 .navbar-default .navbar-collapse {
-	width: 960px;
+	width: 100%;
+	max-width: 960px;
 	margin: 0 auto;
 	padding-left: 0;
 	padding-right: 15px;
@@ -57,6 +66,13 @@ body, html {
 	margin: 0;
 }
 
+/* dropdown */
+
+.dropdown>ul.dropdown-menu {
+	margin-top: 1px;
+	border: none;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.175);
+}
 
 /* ==================================================== */
 
@@ -106,7 +122,8 @@ h5 {
 }
 
 section {
-	width: 960px;
+	width:100%;
+	max-width: 960px;
 	margin: 0 auto;
 	padding: 27px 0;
 }
@@ -243,37 +260,57 @@ p {
 ==================================================== */
 
 #year-2013 {
-	
+	width: 100%;
 }
 
 #year-2012 {
-
+	width: 100%;
 }
 
 #year-2011 {
-	
+	width: 100%;
 }
 
 /* work sections */
 
 .work-dark {
+	width: 100%;
 	padding: 0 0 54px;
 	background: #E0E0E0 url('../img/noise.png');
 }
 
 .work-light {
+	width: 100%;
 	padding: 0 0 54px;
 	background: #F0F0F0 url('../img/noise.png');
 }
 
+/* work year */
+
 .work-year {
+	width: 100%;
+	max-width: 300px;
+	margin: 0 auto;
 	text-align: center;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* work grid */
+.year {
+
+}
+
+/* work layout */
+
+.workitem {
+
+	float:left;
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
 
 .workcell {
+	width: 100%;
+	max-width: 300px;
+	margin: 0 auto;
 	padding: 27px 0 9px 0;
 	text-align: center;
 	border-bottom: 1px #333333 solid;
@@ -283,16 +320,6 @@ p {
 	max-width: 100%;
 	max-height: 100%;
 }
-
-.date {
-	float: right;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-meta {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
 
 /* footer
 ==================================================== */
@@ -305,10 +332,55 @@ meta {
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm) { ... }
+@media (min-width: 320px) { 
+
+	.workitem {
+		width:100%;
+	}
+
+
+	#carousel-example-generic {
+		height: 0;
+		visibility: hidden;
+	}
+
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	
+	.workitem {
+		width:50%;
+	}
+
+	#carousel-example-generic {
+		height: 0;
+		visibility: hidden;
+	}
+
+}
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md) { ... }
+@media (min-width: 992px) {
+	
+	.workitem {
+		width:33.333%;
+	}
+
+	#carousel-example-generic {
+		height: 100%;
+		visibility: visible;
+	}
+
+}
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg) { ... }
+@media (min-width: 1200px) {
+
+	#carousel-example-generic {
+		height: 100%;
+		visibility: visible;
+	}
+
+}
