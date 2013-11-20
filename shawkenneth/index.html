@@ -65,11 +65,11 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Work<b class="caret"></b></a>
                     
                         <ul class="dropdown-menu">
-                            <li><a href="#carousel-example-generic">Featured</a></li>
+                            <li id="featured-work-link"><a href="#featured-work">Featured</a></li>
                             <li class="divider"></li>
-                            <li><a href="#year-2013">2013</a></li>
-                            <li><a href="#year-2012">2012</a></li>
-                            <li><a href="#year-2011">2011</a></li>
+                            <li id="year-2013-link"><a href="#year-2013">2013</a></li>
+                            <li id="year-2012-link"><a href="#year-2012">2012</a></li>
+                            <li id="year-2011-link"><a href="#year-2011">2011</a></li>
                         </ul>
                     </li>
 
@@ -98,16 +98,16 @@
         
             <!--carousel
             ================================================== -->
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <div id="featured-work" class="carousel slide" data-ride="carousel">
                 
                 <!--indicators
                 ================================================== -->
                 <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                    <li data-target="#featured-work" data-slide-to="0" class="active"></li>
+                    <li data-target="#featured-work" data-slide-to="1"></li>
+                    <li data-target="#featured-work" data-slide-to="2"></li>
+                    <li data-target="#featured-work" data-slide-to="3"></li>
+                    <li data-target="#featured-work" data-slide-to="4"></li>
                 </ol>
 
                 <!--wrapper for slides
@@ -163,11 +163,11 @@
 
                 <!--controls
                 ================================================== -->
-                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                <a class="left carousel-control" href="#featured-work" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left"></span>
                 </a>
                 
-                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                <a class="right carousel-control" href="#featured-work" data-slide="next">
                     <span class="glyphicon glyphicon-chevron-right"></span>
                 </a>
 
@@ -181,12 +181,12 @@
             ================================================== -->
             <div class="work-background-dark clearfix">
 
-                <section>
+                <section class="clearfix">
 
                     <!--work year
                     ================================================== -->
 
-                    <div class="work-year work-year-top clearfix">
+                    <div class="work-year clearfix">
                                                 
                         <div class="year">
                             <article>
@@ -203,9 +203,9 @@
 
                         <div class="work-item">
                                 
-                            <div class="work-content">
+                            <div class="work-thumb">
                                 
-                                <img class="work-contentimage" src="img/thumb/blank-thumb.jpg">
+                                <img class="work-thumb-image" src="img/thumb/blank-thumb.jpg">
                                 
                                 <article class="clearfix">
                                     <h3>brstl</h3>
@@ -218,9 +218,9 @@
 
                         <div class="work-item">
                                 
-                            <div class="work-content">
+                            <div class="work-thumb">
                                 
-                                <img class="work-contentimage" src="img/thumb/blank-thumb.jpg">
+                                <img class="work-thumb-image" src="img/thumb/blank-thumb.jpg">
                                 
                                 <article class="clearfix">
                                     <h3>Pale Fire</h3>
@@ -233,9 +233,9 @@
 
                         <div class="work-item">
                                 
-                            <div class="work-content">
+                            <div class="work-thumb">
                                 
-                                <img class="work-contentimage" src="img/thumb/blank-thumb.jpg">
+                                <img class="work-thumb-image" src="img/thumb/blank-thumb.jpg">
                                 
                                 <article class="clearfix">
                                     <h3>Entrospec</h3>
@@ -248,9 +248,9 @@
 
                         <div class="work-item">
                                 
-                            <div class="work-content">
+                            <div class="work-thumb">
                                 
-                                <img class="work-contentimage" src="img/thumb/blank-thumb.jpg">
+                                <img class="work-thumb-image" src="img/thumb/blank-thumb.jpg">
 
                                 <article class="clearfix">
                                     <h3>Sustainable Design Collective</h3>
@@ -263,9 +263,9 @@
 
                         <div class="work-item">
                                 
-                            <div class="work-content">
+                            <div class="work-thumb">
                                 
-                                <img class="work-contentimage" src="img/thumb/blank-thumb.jpg">
+                                <img class="work-thumb-image" src="img/thumb/blank-thumb.jpg">
 
                                 <article class="clearfix">
                                     <h3>Idle Hands</h3>
@@ -278,9 +278,9 @@
 
                         <div class="work-item">
                                 
-                            <div class="work-content">
+                            <div class="work-thumb">
                                 
-                                <img class="work-contentimage" src="img/thumb/blank-thumb.jpg">  
+                                <img class="work-thumb-image" src="img/thumb/blank-thumb.jpg">  
 
                                 <article class="clearfix">
                                     <h3>kennethshaw.co.uk</h3>
@@ -293,9 +293,9 @@
 
                         <div class="work-item">
                                 
-                            <div class="work-content">
+                            <div class="work-thumb">
                                 
-                                <img class="work-contentimage" src="img/thumb/blank-thumb.jpg">
+                                <img class="work-thumb-image" src="img/thumb/blank-thumb.jpg">
                                 
                                 <article class="clearfix">
                                     <h3>generalassemb.ly</h3>
@@ -308,9 +308,9 @@
 
                         <div class="work-item">
                                 
-                            <div class="work-content">
+                            <div class="work-thumb">
                                 
-                                <img class="work-contentimage" src="img/thumb/blank-thumb.jpg">
+                                <img class="work-thumb-image" src="img/thumb/blank-thumb.jpg">
                                 
                                 <article class="clearfix">
                                     <h3>Donuts</h3>
@@ -323,9 +323,9 @@
 
                         <div class="work-item">
                                 
-                            <div class="work-content">
+                            <div class="work-thumb">
                                 
-                                <img class="work-contentimage" src="img/thumb/blank-thumb.jpg">
+                                <img class="work-thumb-image" src="img/thumb/blank-thumb.jpg">
                                 
                                 <article class="clearfix">
                                     <h3>Boundary Object</h3>
@@ -350,7 +350,7 @@
             ================================================== -->
             <div class="work-background-light clearfix">
 
-                <section>
+                <section class="clearfix">
 
                     <!--work year
                     ================================================== -->
@@ -372,9 +372,9 @@
 
                         <div class="work-item">
                                 
-                            <div class="work-content">
+                            <div class="work-thumb">
                                 
-                                <img class="work-contentimage" src="img/thumb/blank-thumb.jpg">
+                                <img class="work-thumb-image" src="img/thumb/blank-thumb.jpg">
                                 
                                 <article class="clearfix">
                                     <h3>Don't Panic</h3>
@@ -387,9 +387,9 @@
 
                         <div class="work-item">
                                 
-                            <div class="work-content">
+                            <div class="work-thumb">
                                 
-                                <img class="work-contentimage" src="img/thumb/blank-thumb.jpg">
+                                <img class="work-thumb-image" src="img/thumb/blank-thumb.jpg">
                                 
                                 <article class="clearfix">
                                     <h3>Blackbox</h3>
@@ -402,9 +402,9 @@
 
                         <div class="work-item">
                                 
-                            <div class="work-content">
+                            <div class="work-thumb">
                                 
-                                <img class="work-contentimage" src="img/thumb/blank-thumb.jpg">
+                                <img class="work-thumb-image" src="img/thumb/blank-thumb.jpg">
                                 
                                 <article class="clearfix">
                                     <h3>Idle Hands</h3>
@@ -417,9 +417,9 @@
 
                         <div class="work-item">
                                 
-                            <div class="work-content">
+                            <div class="work-thumb">
                                 
-                                <img class="work-contentimage" src="img/thumb/blank-thumb.jpg">
+                                <img class="work-thumb-image" src="img/thumb/blank-thumb.jpg">
 
                                 <article class="clearfix">
                                     <h3>Boundary Object</h3>
@@ -445,7 +445,7 @@
             ================================================== -->
             <div class="work-background-dark clearfix">
 
-                <section>
+                <section class="clearfix">
 
                     <!--work year
                     ================================================== -->
@@ -467,9 +467,9 @@
 
                         <div class="work-item">
                                 
-                            <div class="work-content">
+                            <div class="work-thumb">
                                 
-                                <img class="work-contentimage" src="img/thumb/blank-thumb.jpg">
+                                <img class="work-thumb-image" src="img/thumb/blank-thumb.jpg">
                                 
                                 <article class="clearfix">
                                     <h3>Tape-Echo Publication</h3>
@@ -482,9 +482,9 @@
 
                         <div class="work-item">
                                 
-                            <div class="work-content">
+                            <div class="work-thumb">
                                 
-                                <img class="work-contentimage" src="img/thumb/blank-thumb.jpg">
+                                <img class="work-thumb-image" src="img/thumb/blank-thumb.jpg">
 
                                 <article class="clearfix">
                                     <h3>Black Box</h3>
@@ -497,9 +497,9 @@
 
                         <div class="work-item">
                                 
-                            <div class="work-content">
+                            <div class="work-thumb">
                                 
-                                <img class="work-contentimage" src="img/thumb/blank-thumb.jpg">
+                                <img class="work-thumb-image" src="img/thumb/blank-thumb.jpg">
 
                                 <article class="clearfix">
                                     <h3>Rusty Squid</h3>
@@ -512,9 +512,9 @@
 
                         <div class="work-item">
                                 
-                            <div class="work-content">
+                            <div class="work-thumb">
                                 
-                                <img class="work-contentimage" src="img/thumb/blank-thumb.jpg">
+                                <img class="work-thumb-image" src="img/thumb/blank-thumb.jpg">
                                 
                                 <article class="clearfix">
                                     <h3>Crack</h3>
@@ -527,9 +527,9 @@
 
                         <div class="work-item">
                                 
-                            <div class="work-content">
+                            <div class="work-thumb">
                                 
-                                <img class="work-contentimage" src="img/thumb/blank-thumb.jpg">
+                                <img class="work-thumb-image" src="img/thumb/blank-thumb.jpg">
                                 
                                 <article class="clearfix">
                                     <h3>Pollen</h3>
@@ -542,9 +542,9 @@
 
                         <div class="work-item">
                                 
-                            <div class="work-content">
+                            <div class="work-thumb">
                                 
-                                <img class="work-contentimage" src="img/thumb/blank-thumb.jpg">
+                                <img class="work-thumb-image" src="img/thumb/blank-thumb.jpg">
                                 
                                 <article class="clearfix">
                                     <h3>Housework</h3>
@@ -557,9 +557,9 @@
 
                         <div class="work-item">
                                 
-                            <div class="work-content">
+                            <div class="work-thumb">
                                 
-                                <img class="work-contentimage" src="img/thumb/blank-thumb.jpg">
+                                <img class="work-thumb-image" src="img/thumb/blank-thumb.jpg">
 
                                 <article class="clearfix">
                                     <h3>SUM</h3>
