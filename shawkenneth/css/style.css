@@ -460,6 +460,10 @@ aside {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+	.work-year-top {
+		margin-top: 36px;
+	}
+
 	.navbar-text, .navbar-nav>li>a, .navbar-nav .open .dropdown-menu>li>a {
 		padding-left: 15px;
 	}
@@ -477,6 +481,10 @@ aside {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 	
+	.work-year-top {
+		margin-top: 0;
+	}
+
 	.work-item {
 		width:33.333%;
 	}
