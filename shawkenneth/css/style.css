@@ -19,6 +19,7 @@
 }
 
 /* body
+====================================================
 ==================================================== */
 
 body, html {
@@ -27,8 +28,8 @@ body, html {
 	background: #F0F0F0 url('../img/noise.png');
 }
 
-
 /* testing
+====================================================
 ==================================================== */
 
 * {
@@ -36,6 +37,7 @@ body, html {
 }
 
 /* nav
+====================================================
 ==================================================== */
 
 .navbar {
@@ -81,6 +83,7 @@ body, html {
 }
 
 /* headings
+====================================================
 ==================================================== */
 
 h1 {
@@ -123,6 +126,7 @@ h5 {
 }
 
 /* sections
+==================================================== 
 ==================================================== */
 
 .section-line {
@@ -140,11 +144,11 @@ p {
 	margin: 0;
 }
 
-/* about
-==================================================== */
+
 
 /* carousel
-==================================================== */
+====================================================
+====================================================  */
 
 .carousel {
 	height: 100%;
@@ -298,6 +302,7 @@ p {
 }
 
 /* home page - layout
+==================================================== 
 ==================================================== */
 
 #year-2013 {
@@ -328,6 +333,7 @@ p {
 }
 
 /* home page - background
+====================================================
 ==================================================== */
 
 .work-background-dark {
@@ -385,10 +391,9 @@ p {
 	box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
-/* work page - specific
-==================================================== */
 
-/* featured
+/* work page - featured
+==================================================== 
 ==================================================== */
 
 #work-hero {
@@ -417,6 +422,14 @@ p {
 	-webkit-box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.3);
 	-moz-box-shadow:    1px 1px 1px rgba(50, 50, 50, 0.3);
 	box-shadow:         1px 1px 1px rgba(50, 50, 50, 0.3);
+}
+
+/* work page
+==================================================== 
+==================================================== */
+
+.work-page {
+	
 }
 
 /* ================================================= */
@@ -502,11 +515,118 @@ aside {
 	box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
+/* about
+==================================================== 
+==================================================== */
+
+.about-page {
+
+}
+
+/* ================================================= */
+
+#about {
+	border-top: 1px #FFFFFF solid;
+
+	/*-webkit-box-shadow: 0px 0px 6px rgba(54, 54, 54, 0.3);
+	-moz-box-shadow:    0px 0px 6px rgba(54, 54, 54, 0.3);
+	box-shadow:         0px 0px 6px rgba(54, 54, 54, 0.3);*/
+}
+
+.about-background-light {
+	width: 100%;
+	padding: 0 0 54px;
+	background: #F0F0F0 url('../img/noise.png');
+}
+
+/* ================================================= */
+
+.about-item-main {
+	width: 100%;
+	max-width: 640px;
+	float: left;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+/* ================================================= */
+
+.about-main {
+	width: 100%;
+	max-width: 620px;
+	margin: 0 auto;
+	padding: 27px 0 9px 0;
+	text-align: left;
+	border-bottom: 1px #FFFFFF solid;
+}
+
+/* ================================================= */
+
+.about-main-thumb {
+	width: 100%;
+	max-width: 300px;
+	margin: 0 auto;
+	padding: 27px 0 9px 0;
+	text-align: left;
+	border-bottom: 1px #FFFFFF solid;
+}
+
+.about-thumb-image {
+	max-width: 100%;
+	max-height: 100%;
+	padding: 12px;
+	background: #FFFFFF;
+	-webkit-box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.3);
+	-moz-box-shadow:    1px 1px 1px rgba(50, 50, 50, 0.3);
+	box-shadow:         1px 1px 1px rgba(50, 50, 50, 0.3);
+}
+
+.about-main-image {
+	max-width: 100%;
+	max-height: 100%;
+	padding: 12px;
+	background: #FFFFFF;
+	-webkit-box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.3);
+	-moz-box-shadow:    1px 1px 1px rgba(50, 50, 50, 0.3);
+	box-shadow:         1px 1px 1px rgba(50, 50, 50, 0.3);
+}
+
+/* about page - aside
+==================================================== */
+
+.about-side-info {
+
+}
+
+aside {
+	float: right;
+	width: 100%;
+	max-width: 320px;
+}
+
+.about-item-main-side {
+	width: 100%;
+	max-width: 320px;
+	float: left;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
 /* footer
+==================================================== 
 ==================================================== */
 
 /* == see nav == */
 
+footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
 
 /* ================================================= */
 
@@ -517,6 +637,7 @@ aside {
 @media (min-width: 320px) {
 
 	/* home page - 
+	======================================================= 
 	======================================================= */
 
 		.navbar-text, .navbar-nav>li>a, .navbar-nav .open .dropdown-menu>li>a {
@@ -553,6 +674,7 @@ aside {
 		}
 
 	/* work page - 
+	======================================================= 
 	======================================================= */
 
 		#work-hero {
@@ -569,19 +691,47 @@ aside {
 			float: none;
 			width: 100%;
 			max-width: 640px;
-			margin:0 auto;
+			margin: 0 auto;
 			text-align: left;
 		}
 
 		.work-item-main {
 			float: none;
 			width: 100%;
-			margin:0 auto;
+			margin: 0 auto;
 			text-align: center;
 			padding: 0 12px;
 		}
 
 		.work-item-main-side {
+			
+		}
+
+	/* about page - 
+	======================================================= 
+	======================================================= */
+
+		#about {
+			padding: 54px 0 0;
+		}
+
+		.about-side-info {
+			float: none;
+			width: 100%;
+			max-width: 640px;
+			margin:0 auto;
+			text-align: left;
+		}
+
+		.about-item-main {
+			float: none;
+			width: 100%;
+			margin: 0 auto;
+			text-align: center;
+			padding: 0 12px;
+		}
+
+		.about-item-main-side {
 			
 		}
 }
@@ -591,6 +741,7 @@ aside {
 @media (min-width: 768px) {
 
 	/* home page - 
+	======================================================= 
 	======================================================= */
 
 		.navbar-text, .navbar-nav>li>a, .navbar-nav .open .dropdown-menu>li>a {
@@ -632,6 +783,7 @@ aside {
 		}
 
 	/* work page - 
+	=======================================================
 	======================================================= */
 
 		#work-hero {
@@ -660,12 +812,37 @@ aside {
 			padding: 0 12px;
 		}
 
+	/* about page - 
+	=======================================================
+	======================================================= */
+
+		#about {
+			padding: 54px 0 0;
+		}
+
+		.about-side-info {
+			float: none;
+			width: 100%;
+			max-width: 640px;
+			margin:0 auto;
+			text-align: left;
+		}
+
+		.about-item-main {
+			float: none;
+			width: 100%;
+			margin:  auto;
+			text-align: center;
+			padding: 0 12px;
+		}
+
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 	
 	/* home page - 
+	=======================================================
 	======================================================= */
 
 		#featured-work {
@@ -688,6 +865,7 @@ aside {
 		}
 
 	/* work page - 
+	=======================================================
 	======================================================= */
 
 		#work-hero {
@@ -718,6 +896,36 @@ aside {
 		}
 
 		.work-item-main {
+			width: 100%;
+			max-width: 640px;
+			float: left;
+		}
+
+	/* about page - 
+	=======================================================
+	======================================================= */
+
+		#about {
+			padding: 54px 0 0;
+		}
+
+		.about-side-info {
+			float: right;
+			height: auto;
+			visibility: visible;
+		}
+
+		.about-item-main {
+			width: 100%;
+		}
+
+		.about-side-info {
+			width: 100%;
+			max-width: 320px;
+			float: right;
+		}
+
+		.about-item-main {
 			width: 100%;
 			max-width: 640px;
 			float: left;
